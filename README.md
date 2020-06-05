@@ -2,13 +2,13 @@
 My new app show my undertanding for jquery
  06/5/2020, By Johnny Duverseau
 # Description
-
+_ This app 
 
 
 ## Setup/installation requirement
 - Open terminal
 - git clone 
--  https://github.com/alleyesonme21/my-first-application
+-  https://github.com/alleyesonme21/my-first-app
 - cd my-first-application
 - open visual studio code 
 - Code .
