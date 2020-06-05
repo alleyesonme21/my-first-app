@@ -1,28 +1,18 @@
 $(document).ready(function() {
   $("form#group").submit(function(event) {
-      const sentence1 = parseInt($("#add1").val());
-      const sentence2 = parseInt($("#add2").val());
-      const sentence3 = parseInt($("#add3").val());
-      const sentence4 = parseInt($("#add4").val());
-      const sentence5 = parseInt($("#add5").val());
-
-      const addUp = (sentence1 + sentence2 + sentence3 + sentence4 + sentence5);
-
-  switch (addUp) {
-   case 5:
+    const sentence1 = parseInt($("#add1").val());
+    const sentence2 = parseInt($("#add2").val());
+    const sentence3 = parseInt($("#add3").val());
+    const sentence4 = parseInt($("#add4").val());
+    const sentence5 = parseInt($("#add5").val());
+  
+  if (sentence1 === sentence2 && sentence3 === sentence4 && sentence4 <= sentence5) {
     $("#csharp").show();
-    break;
-    case 15:
-     $("#python").show();
-     $("#csharp").hide();
-     $("#javascript").hide();
-    break;
-    default: 
+  } else  if (sentence1 !== sentence2 || sentence3 === sentence4 || sentence4 >= sentence5) {
+    $("#python").show();
+  } else if (sentence1 != sentence5 && sentence2 === sentence3 && sentence3 === sentence4)  {
     $("#javascript").show();
-    $("#python").hide();
-    $("#csharp").hide();
-    
-     }
+ }
 
 event.preventDefault();
   });
