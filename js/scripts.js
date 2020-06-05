@@ -13,7 +13,6 @@ $(document).ready(function() {
   } else if (sentence1 != sentence5 && sentence2 === sentence3 && sentence3 === sentence4)  {
     $("#javascript").show();
  }
-
 event.preventDefault();
   });
 });
