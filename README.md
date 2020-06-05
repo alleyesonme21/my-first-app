@@ -2,7 +2,7 @@
 My new app show my undertanding for jquery
  06/5/2020, By Johnny Duverseau
 # Description
-My application how to 
+
 
 
 ## Setup/installation requirement
