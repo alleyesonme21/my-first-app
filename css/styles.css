@@ -1,25 +1,25 @@
 #javascript, #python, #csharp {
-display: none;
+  display: none;
 }
 img {
-height: 300px;
-width: 300px;
+  height: 300px;
+  width: 300px;
 }
 .well h1 {
-color: green;
-text-align: center;
+  color: green;
+  text-align: center;
 }
 h1 {
-text-align: center;
-color: rgba(139, 47, 245, 0.747);
+  text-align: center;
+  color: rgba(139, 47, 245, 0.747);
 }
 #csharp h2 {
-background-color: blanchedalmond; 
-color: blueviolet;
+  background-color: blanchedalmond; 
+  color: blueviolet;
 }
 #python h2 {
-background-color: blanchedalmond;
-color: blueviolet;
+  background-color: blanchedalmond;
+  color: blueviolet;
 }
 p {
   color: green; 
@@ -32,3 +32,4 @@ img {
   height: 300px;
   width: 300px;
 }
+
