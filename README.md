@@ -1,9 +1,8 @@
 # My New Application
-My new app show my undertanding for jquery
  06/5/2020, By Johnny Duverseau
-# Description
-_ This app 
 
+# Description
+_ This app helps prospective web developers decide which programming language they shoould study first by asking survey questions to help them determine their path.  
 
 ## Setup/installation requirement
 - Open terminal
@@ -13,6 +12,7 @@ _ This app
 - open visual studio code 
 - Code .
 - index.html in browser chrome to view the page 
+
 ## Technologies Used
 - Html
 -  Css
